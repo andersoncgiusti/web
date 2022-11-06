@@ -62,20 +62,20 @@ Endpoint generic: http://localhost:3000/
 #### .env
 > Managed the MongoDb configuration environment variable.
 
-#### 📂SRC
+#### 📂 SRC
 
-#### 📂Routes
+#### 📂 Routes
 > Created the routes only with the responsibility of the HTTP methods.
 
-#### 📂Controllers
+#### 📂 Controllers
 > Created the logic and saved the db information.
 
-#### 📂Model
+#### 📂 Model
 > Modeled the data schema for the bank.
 
-## Test
+#### 📂 Test
 > Unit test.
-
+```
 <br>
 
 ```

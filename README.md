@@ -68,9 +68,6 @@ Endpoint generic: http://localhost:3000/
 #### 📂Model
 > Modeled the data schema for the bank.
 ```
-```
-<br>
-<br>
 
 ```
  📁 web

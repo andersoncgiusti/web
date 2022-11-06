@@ -39,7 +39,7 @@ MongoDB
 
 ```
 # Project comportament
-```sh
+
 Endpoint generic: http://localhost:3000/
 
 | Method | Description |
@@ -52,28 +52,27 @@ Endpoint generic: http://localhost:3000/
 | `/api/pilots/pilots_status()` | Test the status from route |
 | `/api/pilots/pilotsPostUrl()` | Get the link: https://www.formula1.com/en/drivers.html and save it to the database |
 | `/api/pilots/pilotsGetUrl()` | Search all data saved in the database |
-```
 
 ### Architecture
 
-#### Server.js
+#### server.js
 > Node.js server, used the routes, converted the data to Json and made connection with db.
 
 #### .env
 > Managed the MongoDb configuration environment variable.
 
-#### 📂 SRC
+#### 📂 src
 
-#### 📂 Routes
+#### 📂 routes
 > Created the routes only with the responsibility of the HTTP methods.
 
-#### 📂 Controllers
+#### 📂 controllers
 > Created the logic and saved the db information.
 
-#### 📂 Model
+#### 📂 model
 > Modeled the data schema for the bank.
 
-#### 📂 Test
+#### 📂 test
 > Unit test.
 
 <br>

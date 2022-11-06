@@ -17,11 +17,11 @@ npm install
 
 # Run project 
 npm start or node server.js
-```
+
 # Run project test
 npm test 
 ```
-
+```sh
 # Database
 MongoDB
 
@@ -35,6 +35,7 @@ MongoDB
 - node-fetch
 - supertest
 
+```
 # project comportament
 
 Endpoint generic: http://localhost:3000/
@@ -49,7 +50,8 @@ Endpoint generic: http://localhost:3000/
 | `/api/pilots/pilots_status()` | Test the status from route |
 | `/api/pilots/pilotsPostUrl()` | Get the link: https://www.formula1.com/en/drivers.html and save it to the database |
 | `/api/pilots/pilotsGetUrl()` | Search all data saved in the database |
-
+```
+```
 ### Architecture
 
 #### Server.js
@@ -63,12 +65,12 @@ Endpoint generic: http://localhost:3000/
 
 #### 📂Model
 > Modeled the data schema for the bank.
-
-<br>
-<br>
-
 ```
-
+```
+<br>
+<br>
+```
+```
  📁 web
    |
    |-  📁 src
@@ -101,5 +103,4 @@ Endpoint generic: http://localhost:3000/
    |- 📄 jest.config.js
    |- 📄 package
    |- 📄 server.js
-
    ```

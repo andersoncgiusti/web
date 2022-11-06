@@ -21,6 +21,8 @@ npm start or node server.js
 # Run project test
 npm test 
 ```
+
+## Components
 ```sh
 # Database
 MongoDB
@@ -36,7 +38,7 @@ MongoDB
 - supertest
 
 ```
-# project comportament
+# Project comportament
 
 Endpoint generic: http://localhost:3000/
 
@@ -69,7 +71,7 @@ Endpoint generic: http://localhost:3000/
 ```
 <br>
 <br>
-```
+
 ```
  📁 web
    |

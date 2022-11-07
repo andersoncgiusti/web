@@ -137,11 +137,9 @@ kubectl config current-context
 ```
 ## Resources installed link whith image
 ```sh
-# Container
 https://drive.google.com/file/d/1BmMPf2zim1oBbigiyChXKX4KlEAg1gt2/view
 ```
 ```sh
-# Repository
 https://drive.google.com/file/d/1xywLhRlwi6zhy8F-KpPnxHDyUTcIMCuu/view?usp=share_link
 ```
 ## Build project

@@ -135,12 +135,12 @@ ibmcloud ks cluster config --cluster cdkg45mf0fj1ue2md1d0
 ```sh
 kubectl config current-context
 ```
-## Resources
+## Resources installed link whith image
 ```sh
-![download](https://drive.google.com/file/d/1BmMPf2zim1oBbigiyChXKX4KlEAg1gt2/view)
+[link](https://drive.google.com/file/d/1BmMPf2zim1oBbigiyChXKX4KlEAg1gt2/view)
 ```
 ```sh
-![download](https://drive.google.com/file/d/1xywLhRlwi6zhy8F-KpPnxHDyUTcIMCuu/view?usp=share_link)
+[link](https://drive.google.com/file/d/1xywLhRlwi6zhy8F-KpPnxHDyUTcIMCuu/view?usp=share_link)
 ```
 ## Build project
 ```sh

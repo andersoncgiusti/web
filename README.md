@@ -38,7 +38,7 @@ MongoDB
 - supertest
 
 ```
-# Project comportament
+## Project comportament
 
 Endpoint generic: http://localhost:3000/
 
@@ -53,7 +53,7 @@ Endpoint generic: http://localhost:3000/
 | `/api/pilots/pilotsPostUrl()` | Get the link: https://www.formula1.com/en/drivers.html and save it to the database |
 | `/api/pilots/pilotsGetUrl()` | Search all data saved in the database |
 
-### Architecture
+## Architecture
 
 #### server.js
 > Node.js server, used the routes, converted the data to Json and made connection with db.
@@ -116,15 +116,15 @@ Endpoint generic: http://localhost:3000/
 # Create account IBM Cloud free
 https://cloud.ibm.com/login 
 ```
-# Kubernets
+## Kubernets
 ```sh
 With plan lite in IBM Cloud, create cluster free for 30 days
 ```
-# Container Registry
+## Container Registry
 ```sh
 Create a container registry following docs https://cloud.ibm.com/registry/start
 ```
-# Configure Cluster via CLI
+## Configure Cluster via CLI
 ```sh
 ibmcloud login -a cloud.ibm.com -r eu-de -g Default
 ```

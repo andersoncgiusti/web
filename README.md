@@ -122,7 +122,8 @@ With plan lite in IBM Cloud, create cluster free for 30 days
 ```
 ## Container Registry
 ```sh
-Create a container registry following docs https://cloud.ibm.com/registry/start
+# Create a container registry following docs: 
+https://cloud.ibm.com/registry/start
 ```
 ## Configure Cluster via CLI
 ```sh

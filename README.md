@@ -135,3 +135,12 @@ ibmcloud ks cluster config --cluster cdkg45mf0fj1ue2md1d0
 ```sh
 kubectl config current-context
 ```
+## Build project
+```sh
+# Generate image installing all packages and dependencies: example
+docker built -t br.icr.io/<my_namespace>/<my_repository>:<my_tag> .
+```
+```sh
+# Sending image to repository: example
+docker push br.icr.io/<my_namespace>/<my_repository>:<my_tag>
+```

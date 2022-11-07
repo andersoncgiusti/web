@@ -115,19 +115,22 @@ Endpoint generic: http://localhost:3000/
 ```sh
 # Create account IBM Cloud free
 https://cloud.ibm.com/login 
-
+```
 # Kubernets
+```sh
 With plan lite in IBM Cloud, create cluster free for 30 days
-
+```
 # Container Registry
-Create a container registry following docs 
+```sh
+Create a container registry following docs https://cloud.ibm.com/registry/start
 ```
-https://cloud.ibm.com/registry/start
-
 # Configure Cluster via CLI
-```
+```sh
 ibmcloud login -a cloud.ibm.com -r eu-de -g Default
 ```
+```sh
 ibmcloud ks cluster config --cluster cdkg45mf0fj1ue2md1d0
 ```
+```sh
 kubectl config current-context
+```

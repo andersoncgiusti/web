@@ -41,7 +41,7 @@ module.exports = {
             //     'link_image': 'http://books.toscrape.com/media/cache/1b/5f/1b5ff86f3c75e51e24c573d3f8bffd8f.jpg',
             //     'link_catalogue': 'http://books.toscrape.coma-spys-devotion-the-regency-spies-of-london-1_3/index.html'
             // }
-
+          
             await BOOKS.create(items)
             .then(getBody => {
                 res.status(200).json({ 

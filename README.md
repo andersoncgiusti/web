@@ -57,7 +57,7 @@ Endpoint generic: http://localhost:3000/
 | `/api/pilots/pilotsPostUrl()` | Get the link: https://www.formula1.com/en/drivers.html and save it to the database |
 | `/api/pilots/pilotsGetUrl()` | Search all data saved in the database |
 
-## Example of request and response 
+## Example of response 
 #### Method GET /api/status/status()
 ```sh
 {

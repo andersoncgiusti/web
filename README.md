@@ -21,7 +21,7 @@ npm start or node server.js
 # Run project test
 npm test 
 ```
- #### Create account Mondo DB free
+ #### Create account MongoDB free
 ```sh
 https://www.mongodb.com/
 ```

@@ -101,6 +101,7 @@ Endpoint generic: http://localhost:3000/
 {
     "success": true
 }
+```
 ## Architecture
 
 #### server.js

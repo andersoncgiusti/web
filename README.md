@@ -195,10 +195,6 @@ https://drive.google.com/file/d/1BmMPf2zim1oBbigiyChXKX4KlEAg1gt2/view
 ```sh
 https://drive.google.com/file/d/1xywLhRlwi6zhy8F-KpPnxHDyUTcIMCuu/view?usp=share_link
 ```
-#### Project runnig in cluster
-```sh
-https://drive.google.com/file/d/1W_t8NoMHIBJmlXMjb5CZufQzukBs9CM7/view?usp=share_link
-```
 ## Build project
 #### Generate image installing all packages and dependencies: example
 ```sh
@@ -207,4 +203,8 @@ docker built -t br.icr.io/<my_namespace>/<my_repository>:<my_tag> .
 #### Sending image to repository: example
 ```sh
 docker push br.icr.io/<my_namespace>/<my_repository>:<my_tag>
+```
+#### Project runnig in cluster
+```sh
+https://drive.google.com/file/d/1W_t8NoMHIBJmlXMjb5CZufQzukBs9CM7/view?usp=share_link
 ```

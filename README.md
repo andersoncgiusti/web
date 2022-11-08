@@ -121,8 +121,8 @@ https://cloud.ibm.com/login
 With plan lite in IBM Cloud, create cluster free for 30 days
 ```
 ## Container Registry
+#### Create a container registry following docs
 ```sh
-# Create a container registry following docs: 
 https://cloud.ibm.com/registry/start
 ```
 ## Configure Cluster via CLI
@@ -143,11 +143,11 @@ https://drive.google.com/file/d/1BmMPf2zim1oBbigiyChXKX4KlEAg1gt2/view
 https://drive.google.com/file/d/1xywLhRlwi6zhy8F-KpPnxHDyUTcIMCuu/view?usp=share_link
 ```
 ## Build project
+#### Generate image installing all packages and dependencies: example
 ```sh
-# Generate image installing all packages and dependencies: example
 docker built -t br.icr.io/<my_namespace>/<my_repository>:<my_tag> .
 ```
+#### Sending image to repository: example
 ```sh
-# Sending image to repository: example
 docker push br.icr.io/<my_namespace>/<my_repository>:<my_tag>
 ```

@@ -53,6 +53,54 @@ Endpoint generic: http://localhost:3000/
 | `/api/pilots/pilotsPostUrl()` | Get the link: https://www.formula1.com/en/drivers.html and save it to the database |
 | `/api/pilots/pilotsGetUrl()` | Search all data saved in the database |
 
+## Example of request and response 
+#### Method GET /api/status/status()
+```sh
+{
+    "author": "Anderson Giusti"
+}
+```
+#### Method GET /api/books/booksGetUrl()
+```sh
+{
+    "message": "Consulting books with successfully!",
+    "books": [
+        {
+            "_id": "636935bca457f6f4a80a63ee",
+            "link_image": "http://books.toscrape.com/media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg",
+            "link_catalogue": "http://books.toscrape.coma-light-in-the-attic_1000/index.html",
+            "created_at": "2022-11-07T16:43:40.096Z",
+            "__v": 0
+        },
+    ]
+}
+```
+#### Method GET /api/books/books_status()
+```sh
+{
+    "success": true
+}
+```
+#### Method GET /api/pilots/pilotsGetUrl()
+```sh
+{
+    "message": "Consulting pilots with successfully!",
+    "pilots": [
+        {
+            "_id": "636935a6a457f6f4a80a63c2",
+            "photo": "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png",
+            "link": "https://www.formula1.com/en/drivers/max-verstappen.html",
+            "created_at": "2022-11-07T16:43:18.308Z",
+            "__v": 0
+        },
+    ]
+}
+```
+#### Method GET /api/books/pilots_status()
+```sh
+{
+    "success": true
+}
 ## Architecture
 
 #### server.js
@@ -141,6 +189,10 @@ https://drive.google.com/file/d/1BmMPf2zim1oBbigiyChXKX4KlEAg1gt2/view
 ```
 ```sh
 https://drive.google.com/file/d/1xywLhRlwi6zhy8F-KpPnxHDyUTcIMCuu/view?usp=share_link
+```
+#### Project runnig in cluster
+```sh
+https://drive.google.com/file/d/1W_t8NoMHIBJmlXMjb5CZufQzukBs9CM7/view?usp=share_link
 ```
 ## Build project
 #### Generate image installing all packages and dependencies: example
